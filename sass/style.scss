@@ -41,6 +41,31 @@ header .header-top {
   }
 }
 
+header {
+  position: relative;
+  .header-pr {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .header-cap {
+    span {
+      margin-bottom: 1rem;
+      padding-top: 6%;
+      text-align: center;
+      color: #21AEAD;
+      font-size: 18px;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
 .logo {
   padding-top: 2.6rem;
   margin-bottom: 1rem;
