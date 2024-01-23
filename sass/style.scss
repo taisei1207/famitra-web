@@ -472,6 +472,53 @@ a:hover {
   text-indent: -1em;
 }
 
+.intro {
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    figure {
+      text-align: center;
+      width: 250px;
+      img {
+        width: 100%;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+    }
+    .intro-arrow {
+      width: 28%;
+      max-width: 180px;
+      position: absolute;
+      left: 50%;
+      top: 40%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  &-point {
+    background: #fff;
+    padding: 1.2rem;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      background: url("/images/point.png") 0 0 / 100%;
+      width: 162px;
+      height: 39px;
+      transform: translate(-10px, -50%);
+    }
+    p {
+      color: #333;
+      font-size: 1.29rem;
+    }
+  }
+}
+
+
 .features {
   margin-top: 2rem;
 }
