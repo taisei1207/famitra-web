@@ -282,6 +282,9 @@ p {
 
 .price {
   background: #ECF8F8;
+  margin-top: -80px;
+  z-index: -10;
+  position: relative;
   .image-container-link {
     margin-bottom: 1rem;
   }
@@ -353,6 +356,9 @@ p {
   .arrow-down {
     width: 10rem;
     margin: 0 auto;
+    img {
+      vertical-align: super;
+    }
   }
 }
 
