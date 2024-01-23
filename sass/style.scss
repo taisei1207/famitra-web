@@ -280,6 +280,27 @@ p {
   font-weight: bold;
 }
 
+.price {
+  background: #ECF8F8;
+  .image-container-link {
+    margin-bottom: 1rem;
+  }
+  h2 {
+    color: #1EADAC;
+  }
+  .read-txt, .mintitle, .list {
+    color: #333;
+  }
+  &-caption {
+    span {
+      display: block;
+      text-align: right;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  }
+}
+
 .section3 {
   padding-bottom: 2.6rem;
 }
