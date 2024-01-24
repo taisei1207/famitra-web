@@ -50,7 +50,7 @@ gulp.task('sass', function() {
     cascade: false
     })]))
 		.pipe(sourcemaps.write())
-    .pipe(gulp.dest('./famitra/content/'));
+    .pipe(gulp.dest('./'));
 });
 
 var pug = require('gulp-pug');
@@ -69,7 +69,7 @@ gulp.task( 'browser-sync', done => {
 	browserSync.init({
 		server: {
 			baseDir: './',
-			index: '/famitra/content/index.html'
+			index: '/index.html'
 		}
 	})
 	done()
