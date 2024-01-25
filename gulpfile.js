@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('sass'));
 var sassGlob = require('gulp-sass-glob');
 var sourcemaps = require('gulp-sourcemaps');
 var plumber = require('gulp-plumber');
@@ -15,7 +15,7 @@ var imagemin = require("gulp-imagemin");
 var imageminPngquant = require("imagemin-pngquant");
 var imageminMozjpeg = require("imagemin-mozjpeg");
 
-var pug = require('gulp-pug');
+
 
 var imageminOption = [
 	imageminPngquant({ quality: [0.65, 0.8] }),
@@ -50,25 +50,14 @@ gulp.task('sass', function() {
     cascade: false
     })]))
 		.pipe(sourcemaps.write())
-    .pipe(gulp.dest('./'));
-});
-
-var pug = require('gulp-pug');
-
-gulp.task('pug', () => {
-	return gulp.src(['./*.pug', '!./_*.pug'])
-	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
-	.pipe(pug({
-		pretty: true
-	}))
-	.pipe(gulp.dest('./famitra/content/'));
+    .pipe(gulp.dest('./public'));
 });
 
 //Browser Syncin
 gulp.task( 'browser-sync', done => {
 	browserSync.init({
 		server: {
-			baseDir: './',
+			baseDir: './public/',
 			index: '/index.html'
 		}
 	})
@@ -87,12 +76,6 @@ gulp.task('sass:watch', function() {
 	});
 });
 
-gulp.task('pug:watch', function() {
-	var watcherPug = gulp.watch('./*.pug', gulp.task('pug'));
-	watcherPug.on('change', function(event) {
-	})
-});
-
 gulp.task("imagemin", function() {
 		return gulp
 		.src("./base/*.{png,jpg,gif,svg}")
@@ -106,4 +89,6 @@ gulp.task('file-watch', function() {
 });
 
 // タスク"task-watch"がgulpと入力しただけでdefaultで実行されるようになる
-gulp.task('default', gulp.series(gulp.parallel('browser-sync','file-watch','sass:watch', 'pug:watch')));
+gulp.task('default', gulp.series(gulp.parallel('browser-sync','file-watch','sass:watch')));
+
+gulp.task('build', gulp.series('sass'));
