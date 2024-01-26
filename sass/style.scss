@@ -71,10 +71,12 @@ header {
       padding-top: 6%;
       text-align: center;
       color: #21AEAD;
-      font-size: 22px;
+      font-size: 23px;
       font-weight: bold;
       display: block;
-      margin-bottom: 1rem;
+      @media screen and (max-width: 750px) {
+        font-size: 17px;
+      }
     }
   }
 }
