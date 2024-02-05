@@ -1,0 +1,1522 @@
+@charset "UTF-8";
+.famitra {
+  /* theadのthのスタイル */
+  /* 2,3,4番目のthの幅を固定 */
+  /* tbodyのtdの文字スタイル */
+  /* tbodyのtdの画像スタイル */
+}
+
+.famitra header {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+}
+
+.famitra header .header-top {
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 750px) {
+  .famitra header .header-top {
+    padding-top: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .famitra header .header-top {
+    width: 37.7%;
+    position: absolute;
+    z-index: 10;
+    left: 8.5%;
+    top: 14%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .famitra header .header-inner {
+    max-height: 80vh;
+    margin-top: -1rem;
+  }
+}
+
+.famitra header {
+  position: relative;
+}
+
+.famitra header .header-pr {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  color: #1EADAC;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 750px) {
+  .famitra header .header-pr {
+    top: 0.5rem;
+  }
+}
+
+.famitra header .header-cap span {
+  margin-bottom: 1rem;
+  padding-top: 6%;
+  text-align: center;
+  color: #21AEAD;
+  font-size: 23px;
+  font-weight: bold;
+  display: block;
+}
+
+@media screen and (max-width: 750px) {
+  .famitra header .header-cap span {
+    font-size: 17px;
+  }
+}
+
+.famitra .logo {
+  padding-top: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .logo {
+    text-align: center;
+    padding-top: 6%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .famitra .logo {
+    padding-top: 2.1rem;
+  }
+}
+
+.famitra .logo img {
+  width: 11.3rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .logo img {
+    width: 44%;
+  }
+}
+
+.famitra .logo-pc {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  width: 16%;
+  z-index: 10;
+}
+
+.famitra .catchphrase img {
+  width: 21.7rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .catchphrase img {
+    width: 100%;
+  }
+}
+
+.famitra .subtext {
+  font-size: 1.14rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .subtext {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .famitra .subtext {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.famitra .main-visual {
+  position: relative;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .main-visual {
+    width: 60%;
+    margin-left: auto;
+  }
+}
+
+.famitra .main-visual img {
+  width: 100%;
+}
+
+.famitra img {
+  width: 100%;
+  height: auto;
+}
+
+.famitra .main-label {
+  position: absolute;
+  left: 1.2rem;
+  width: 6.9rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .main-label {
+    bottom: -14%;
+    right: -15%;
+    width: 25%;
+    left: initial;
+  }
+}
+
+.famitra .mintitle {
+  margin: 0;
+  font-size: 0.88rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .mintitle {
+    font-size: 1.2rem;
+  }
+}
+
+.famitra .list-first {
+  margin: 0;
+  color: white;
+  font-size: 0.88rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .list-first {
+    font-size: 1.2rem;
+  }
+}
+
+.famitra section {
+  background-color: #1eadac;
+  padding: 3.9rem 1.22rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra section {
+    padding: 6rem 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .famitra section {
+    padding-top: 2.9rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .famitra section:first-of-type {
+    padding-top: 5rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .subsection h3 {
+    margin-top: 8rem;
+  }
+}
+
+.famitra h2 {
+  font-size: 2.28rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.13rem;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  line-height: 1.4;
+  margin-top: -0.26em;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra h2 {
+    font-size: 3.28rem;
+  }
+}
+
+.famitra h3 {
+  color: #333333;
+  position: relative;
+  padding-left: 1rem;
+  /* 縦線とテキストの間のスペースを調整 */
+  line-height: 1.4;
+  font-size: 1.29rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1.7rem;
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra h3 {
+    font-size: 2.2rem;
+  }
+}
+
+.famitra h3:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 90%;
+  /* 縦線の高さをh3タグのline-heightの90%に設定 */
+  width: 2px;
+  /* 縦線の太さを調整 */
+  background-color: #000;
+  /* 縦線の色を調整 */
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.famitra p {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .famitra p {
+    font-size: 1.139rem;
+  }
+}
+
+.famitra .read-txt {
+  font-size: 1.285rem;
+  letter-spacing: 0.01rem;
+  line-height: 1.8;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .read-txt {
+    font-size: 1.5rem;
+  }
+}
+
+.famitra .read-txt span {
+  font-weight: bold;
+}
+
+.famitra .price {
+  background: #ECF8F8;
+  margin-top: -80px;
+  z-index: -10;
+  position: relative;
+}
+
+@media screen and (max-width: 750px) {
+  .famitra .price {
+    padding-top: 110px;
+  }
+}
+
+.famitra .price .image-container-link {
+  margin-bottom: 1rem;
+}
+
+.famitra .price h2 {
+  color: #1EADAC;
+}
+
+.famitra .price .read-txt, .famitra .price .mintitle, .famitra .price .list {
+  color: #333;
+}
+
+.famitra .price-caption span {
+  display: block;
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 750px) {
+  .famitra .price-caption span {
+    font-size: 0.88rem;
+  }
+}
+
+.famitra .section3 {
+  padding-bottom: 2.6rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .section3 {
+    padding-bottom: 7rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .section3-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 2%;
+    margin-top: 4rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.famitra .section3-item .section3-img {
+  text-align: center;
+  margin: 0 auto 1.5rem;
+  width: 21rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .section3-item .section3-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30rem;
+  }
+}
+
+.famitra .section3-item .white-rectangle {
+  max-width: 81%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .section3-item .white-rectangle {
+    width: 30rem;
+  }
+  .famitra .section3-item .white-rectangle p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .arrow-down {
+    width: 10rem;
+    margin: 0 auto;
+  }
+  .famitra .arrow-down img {
+    vertical-align: super;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .pc-center {
+    text-align: center;
+  }
+}
+
+.famitra .section4 {
+  padding-top: 2.5rem;
+}
+
+.famitra .content {
+  width: 1005px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 750px) {
+  .famitra .content {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.famitra .sp {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  .famitra .sp {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .famitra .pc {
+    display: none;
+  }
+}
+
+.famitra a {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.famitra a:hover {
+  opacity: 0.8;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.famitra .image-container,
+.famitra .image-container-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.famitra .image-container a,
+.famitra .image-container-link a {
+  width: 49%;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .image-container-link {
+    margin: 3rem 0 2rem;
+  }
+}
+
+.famitra .image-container-link img {
+  width: 48%;
+}
+
+.famitra .image-container-mid {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.famitra .image-container-mid img {
+  width: 100%;
+}
+
+.famitra .image-container-full img {
+  width: 100%;
+}
+
+.famitra .subtext02 {
+  color: #333333;
+  opacity: 0.6;
+  font-size: 0.87rem;
+}
+
+.famitra .image-container-icon {
+  margin: 1.5rem auto;
+  width: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .image-container-icon {
+    margin: 4rem auto;
+  }
+}
+
+.famitra .image-container-icon img {
+  margin-right: 1rem;
+}
+
+.famitra .image-container-icon img:first-child {
+  margin-left: 1rem;
+}
+
+.famitra .fc-bl h2,
+.famitra .fc-bl p {
+  color: #333333;
+}
+
+.famitra .white-rectangle {
+  background-color: white;
+  padding: 1.7rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .white-rectangle {
+    padding: 3rem 3rem;
+  }
+}
+
+.famitra .white-rectangle p {
+  margin: 0;
+  letter-spacing: 0.05rem;
+  font-size: 1.14rem;
+}
+
+.famitra .white-rectangle h3 {
+  position: static;
+  text-align: center;
+  margin-top: 1.6rem;
+}
+
+.famitra .white-rectangle h3:before {
+  position: static;
+  background-color: initial;
+  width: initial;
+  -webkit-transform: initial;
+          transform: initial;
+}
+
+.famitra .white-rectangle h4 {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-top: 2.3rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .white-rectangle-pc h3 {
+    margin-top: 1rem;
+  }
+}
+
+.famitra .heading-main {
+  color: #1eadac !important;
+}
+
+.famitra .heading-main span {
+  color: #ca7900;
+}
+
+.famitra .heading-main02 span {
+  color: #fcff68;
+}
+
+.famitra .list {
+  padding: 0;
+}
+
+.famitra .list li {
+  list-style: none;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.famitra .intro-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+@media screen and (max-width: 750px) {
+  .famitra .intro-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.famitra .intro-list figure {
+  text-align: center;
+  width: 250px;
+}
+
+.famitra .intro-list figure img {
+  width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+  .famitra .intro-list figure img {
+    width: 200px;
+  }
+}
+
+.famitra .intro-list figure p {
+  font-size: 1.2rem;
+}
+
+.famitra .intro-list .intro-arrow {
+  width: 28%;
+  max-width: 180px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 750px) {
+  .famitra .intro-list .intro-arrow {
+    position: relative;
+    width: 46px;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+.famitra .intro-point {
+  background: #fff;
+  padding: 1.2rem;
+  position: relative;
+}
+
+.famitra .intro-point::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  background: url("/images/point.png") 0 0/100%;
+  width: 162px;
+  height: 39px;
+  -webkit-transform: translate(-10px, -50%);
+          transform: translate(-10px, -50%);
+}
+
+.famitra .intro-point p {
+  color: #333;
+  font-size: 1.29rem;
+}
+
+.famitra .features {
+  margin-top: 2rem;
+}
+
+.famitra .features .feature {
+  background-color: #fff1ce;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.65rem;
+  padding-left: 0.8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .features .feature {
+    width: 50rem;
+    max-width: 100%;
+    margin: 0 auto 1.2rem;
+    padding-left: 1.5rem;
+  }
+}
+
+.famitra .features .feature p {
+  font-size: 1.29rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .features .feature p {
+    font-size: 2rem;
+  }
+}
+
+.famitra .features .feature span {
+  font-size: 1.73rem;
+  display: inline;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(0%, #fcff68));
+  background: linear-gradient(transparent 60%, #fcff68 0%);
+  padding-bottom: 0.1rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .features .feature span {
+    font-size: 2.7rem;
+  }
+}
+
+.famitra .features .feature img {
+  margin-right: 0.8rem;
+  width: 2rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .features .feature img {
+    width: 2.9rem;
+    margin-right: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .flex-wrap {
+    margin: 4rem auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 4%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .flex-wrap .image-container-mid {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .flex-wrap .feature-right {
+    width: 48%;
+  }
+}
+
+.famitra table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1rem;
+}
+
+.famitra table .table-icon {
+  text-align: center;
+}
+
+.famitra table td,
+.famitra table th {
+  border: 2px #8c8c8c solid;
+}
+
+.famitra table thead th {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.famitra table thead th span {
+  font-size: 0.7rem;
+}
+
+.famitra table thead tr:first-child {
+  background-color: #fff1ce;
+}
+
+.famitra table tbody th {
+  background-color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0 0.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra table tbody th {
+    font-size: 1.1rem;
+  }
+}
+
+.famitra table tbody td {
+  background-color: white;
+  padding: 1.4rem 0.4rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 0.72rem;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
+}
+
+.famitra table tbody td span {
+  font-weight: bold;
+}
+
+.famitra table tbody td img {
+  width: 2.1rem;
+}
+
+.famitra table thead th {
+  background-color: #fff1ce;
+  padding: 0.5rem 0;
+  /* 44pxの高さをremで指定。通常1remは16pxとされるため、44/16 = 2.75rem */
+  text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra table thead th {
+    padding: 1.5rem 0;
+    font-size: 1.1rem;
+  }
+}
+
+.famitra table thead th:nth-child(n+2) {
+  width: 27.5%;
+  /* 3つのthが同じ幅になるように固定 */
+}
+
+.famitra table tbody td {
+  font-size: 0.71rem;
+  vertical-align: top;
+  /* 内容を上に寄せる */
+}
+
+@media screen and (min-width: 750px) {
+  .famitra table tbody td {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+}
+
+.famitra .table-icon {
+  display: inline-block;
+  width: 100%;
+  height: 2.3rem;
+  /* 画像の高さを設定。適切な値に調整してください。 */
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.famitra .table-icon img {
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  display: inline;
+  vertical-align: middle;
+}
+
+.famitra .property-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.famitra .property-images .property-images-item {
+  width: 30%;
+  text-align: center;
+}
+
+.famitra .property-images .property-images-item p {
+  color: #333333;
+}
+
+.famitra .logo-row {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.famitra .logo-row picture {
+  width: 33%;
+  margin: 0 0.7rem;
+}
+
+.famitra .logo-row picture:first-child {
+  width: 25%;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .logo-row picture:first-child {
+    width: 25%;
+  }
+}
+
+.famitra .logo-row picture:nth-child(2) {
+  width: 25%;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .logo-row picture:nth-child(2) {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .famitra .logo-row picture:nth-child(2) {
+    width: 28%;
+  }
+}
+
+.famitra .logo-row:last-child picture:first-child {
+  width: 36%;
+}
+
+@media screen and (max-width: 540px) {
+  .famitra .logo-row:last-child picture:first-child {
+    width: 45%;
+  }
+}
+
+.famitra .logo-row:last-child picture:last-child {
+  width: 40%;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .graph {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.famitra #qa .white-rectangle {
+  margin-top: 3rem;
+  color: #211715;
+}
+
+.famitra .qa {
+  margin-bottom: 1.3rem;
+}
+
+.famitra .qa .qa-wrap {
+  padding: 0;
+  margin: 0;
+  padding: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  letter-spacing: 0.2rem;
+}
+
+.famitra .qa .qa-wrap span {
+  color: #1eadac;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-right: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .qa .qa-wrap span {
+    margin: 0;
+  }
+}
+
+.famitra .qa .qa-wrap .highlight02 {
+  font-size: 1.35rem;
+  color: #333333;
+}
+
+.famitra .qa p {
+  font-size: 1.29rem;
+  color: #333333;
+  margin: 0;
+}
+
+.famitra .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .read-textpc {
+    margin: 7rem 0 3rem;
+  }
+}
+
+.famitra .voice .read-txt {
+  margin-top: -0.7rem;
+  margin-bottom: 2.7rem;
+}
+
+.famitra .voice h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.famitra .voice .voice-item {
+  margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .voice .voice-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 3%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .voice .voice-item div {
+    width: 60%;
+  }
+}
+
+.famitra .voice .voice-item:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .voice .voice-item p {
+    width: 70%;
+    margin-top: 0;
+  }
+}
+
+.famitra .voice .voice-item p:last-child {
+  margin-bottom: 0;
+}
+
+.famitra .highlight {
+  display: inline;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(0%, #fcff68));
+  background: linear-gradient(transparent 60%, #fcff68 0%);
+  padding-bottom: 0.1rem;
+  font-weight: bold;
+}
+
+.famitra .respondence .respondence-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.famitra .respondence .respondence-item {
+  width: 47%;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .respondence .respondence-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 3rem;
+  }
+}
+
+.famitra .respondence .respondence-item .respondence-img {
+  text-align: center;
+}
+
+.famitra .respondence .respondence-item .respondence-img img {
+  width: 80%;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .respondence .respondence-item .respondence-img img {
+    width: 10rem;
+    margin-right: 1rem;
+  }
+}
+
+.famitra .respondence .respondence-item h4 {
+  font-weight: 500;
+  font-size: 1.14rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .respondence .respondence-item h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}
+
+.famitra .respondence .respondence-item h4 span {
+  font-size: 0.9rem;
+}
+
+.famitra .respondence .respondence-pf {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+.famitra .conv-btn a {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #E8AE40;
+  padding: 1rem 0;
+  max-width: 600px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 72px;
+  color: inherit;
+  text-decoration: none;
+  line-height: 0;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 750px) {
+  .famitra .conv-btn a {
+    padding: 1rem;
+  }
+}
+
+.famitra .conv-btn img {
+  width: 40px;
+  height: 46px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 750px) {
+  .famitra .conv-btn img {
+    padding: 1rem;
+    width: 30px;
+    height: 33px;
+    margin-right: 0.5rem;
+  }
+}
+
+.famitra .conv-btn p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  height: 72px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 72px;
+  margin: 0 30px 0 0;
+}
+
+@media screen and (max-width: 750px) {
+  .famitra .conv-btn p {
+    font-size: 1.6rem;
+    margin-right: 0.5rem;
+  }
+}
+
+.famitra .conv-btn span {
+  display: block;
+  background: #fff;
+  color: #E8AE40;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  width: 120px;
+  height: 2.5rem;
+  line-height: 2.5rem;
+}
+
+@media screen and (max-width: 750px) {
+  .famitra .conv-btn span {
+    font-size: 1.3rem;
+    height: 34px;
+    line-height: 34px;
+    width: 70px;
+  }
+}
+
+.famitra #qa2 .qa-wrap {
+  position: relative;
+}
+
+.famitra #qa2 .icon-container {
+  position: absolute;
+  top: 50%;
+  right: 1.2rem;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.famitra #qa2 .icon {
+  width: 21px;
+  height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #1eadac;
+  color: #1eadac;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.famitra #qa2 .answer {
+  max-height: 0;
+  padding: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.3s ease-in-out;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.famitra #qa2 .answer.open {
+  padding: 1.2rem;
+  max-height: 300px;
+  /* 適切な最大高さに調整 */
+}
+
+.famitra #qa2 .question {
+  padding-right: 3.3rem;
+}
+
+.famitra .c-accordion {
+  margin-top: 4rem;
+}
+
+.famitra .c-accordion__list {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.famitra .c-accordion__list__header {
+  background-color: #fff1ce;
+  padding: 0.8rem 4rem 0.8rem 2rem;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border-radius: 0.3rem;
+}
+
+@media screen and (max-width: 736px) {
+  .famitra .c-accordion__list__header {
+    padding: 1.2rem 4.5rem 1.2rem 1rem;
+  }
+}
+
+.famitra .c-accordion__list__header p {
+  color: #333333;
+  font-size: 1.29rem;
+  margin: 0;
+}
+
+.famitra .c-accordion__list__header p span {
+  margin-right: 1.2rem;
+  font-size: 2rem;
+  color: #1eadac;
+  font-weight: bold;
+}
+
+.famitra .c-accordion__list__header--icon {
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  margin-top: -10px;
+  border: 1px solid #1eadac;
+  padding: 0.2rem;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .c-accordion__list__header--icon {
+    border: none;
+  }
+}
+
+.famitra .c-accordion__list__header--icon::before, .famitra .c-accordion__list__header--icon::after {
+  position: absolute;
+  content: "";
+  margin: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .c-accordion__list__header--icon::before, .famitra .c-accordion__list__header--icon::after {
+    top: 0.7rem !important;
+  }
+}
+
+.famitra .c-accordion__list__header--icon::before {
+  border-top: 3px solid #1eadac;
+  width: 20px;
+  height: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .c-accordion__list__header--icon::before {
+    right: -0.1rem;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .famitra .c-accordion__list__header--icon::before {
+    width: 15px;
+    right: 0.2rem;
+  }
+}
+
+.famitra .c-accordion__list__header--icon::after {
+  border-left: 3px solid #1eadac;
+  width: 0;
+  height: 20px;
+  top: 0;
+  bottom: 0;
+  right: 0.4rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 736px) {
+  .famitra .c-accordion__list__header--icon::after {
+    height: 15px;
+    right: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .famitra .c-accordion__list__header--icon {
+    right: 0.8rem;
+    width: 1rem;
+    height: 1rem;
+    margin-top: -7px;
+  }
+}
+
+.famitra .c-accordion__list__inner {
+  display: none;
+  padding: 0.8rem 1.7rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 736px) {
+  .famitra .c-accordion__list__inner {
+    padding: 1rem;
+  }
+}
+
+.famitra .c-accordion__list__inner p {
+  color: #333333;
+  font-weight: 500;
+}
+
+.famitra .c-accordion__list__inner a {
+  color: #333333;
+}
+
+.famitra .c-accordion__list__header.open .c-accordion__list__header--icon::before {
+  border-top: 3px solid #1eadac;
+  z-index: 10;
+}
+
+@media screen and (max-width: 736px) {
+  .famitra .c-accordion__list__header.open .c-accordion__list__header--icon::before {
+    width: 15px;
+  }
+}
+
+.famitra .c-accordion__list__header.open .c-accordion__list__header--icon::after {
+  height: 0;
+}
+
+.famitra .c-accordion__list__header--q {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .c-accordion__list__header--q {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.famitra .c-accordion__list__header--a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  font-size: 1.29rem;
+}
+
+.famitra .c-accordion__list__header--a span {
+  margin-right: 1.2rem;
+  font-size: 2rem;
+  color: #1eadac;
+  font-weight: bold;
+}
+
+.famitra .conversion {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0.6rem 1rem;
+  z-index: 10;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  opacity: 0;
+  /* Initially hidden */
+  -webkit-transition: opacity 1s ease-out;
+  transition: opacity 1s ease-out;
+}
+
+@media screen and (min-width: 750px) {
+  .famitra .conversion {
+    padding: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1%;
+  }
+  .famitra .conversion:hover a {
+    opacity: 1;
+  }
+}
+
+.famitra .conversion .conv-btn {
+  width: 600px;
+}
+
+@media screen and (max-width: 540px) {
+  .famitra .conversion-sub a {
+    width: 85%;
+  }
+}
+
+.famitra .fade-in {
+  opacity: 1 !important;
+}
+/*# sourceMappingURL=style.css.map */
