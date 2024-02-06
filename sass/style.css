@@ -1,18 +1,18 @@
 @charset "UTF-8";
-.famitra {
+.family-trust {
   /* theadのthのスタイル */
   /* 2,3,4番目のthの幅を固定 */
   /* tbodyのtdの文字スタイル */
   /* tbodyのtdの画像スタイル */
 }
 
-.famitra header {
+.family-trust header {
   background-color: #ffffff;
   text-align: center;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra header {
+  .family-trust header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -23,18 +23,18 @@
   }
 }
 
-.famitra header .header-top {
+.family-trust header .header-top {
   padding: 0 1rem;
 }
 
 @media screen and (max-width: 750px) {
-  .famitra header .header-top {
+  .family-trust header .header-top {
     padding-top: 1.5rem;
   }
 }
 
 @media screen and (min-width: 750px) {
-  .famitra header .header-top {
+  .family-trust header .header-top {
     width: 37.7%;
     position: absolute;
     z-index: 10;
@@ -44,17 +44,17 @@
 }
 
 @media screen and (max-width: 540px) {
-  .famitra header .header-inner {
+  .family-trust header .header-inner {
     max-height: 80vh;
     margin-top: -1rem;
   }
 }
 
-.famitra header {
+.family-trust header {
   position: relative;
 }
 
-.famitra header .header-pr {
+.family-trust header .header-pr {
   position: absolute;
   top: 1rem;
   left: 0;
@@ -64,12 +64,12 @@
 }
 
 @media screen and (max-width: 750px) {
-  .famitra header .header-pr {
+  .family-trust header .header-pr {
     top: 0.5rem;
   }
 }
 
-.famitra header .header-cap span {
+.family-trust header .header-cap span {
   margin-bottom: 1rem;
   padding-top: 6%;
   text-align: center;
@@ -80,18 +80,18 @@
 }
 
 @media screen and (max-width: 750px) {
-  .famitra header .header-cap span {
+  .family-trust header .header-cap span {
     font-size: 17px;
   }
 }
 
-.famitra .logo {
+.family-trust .logo {
   padding-top: 2.6rem;
   margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .logo {
+  .family-trust .logo {
     text-align: center;
     padding-top: 6%;
     margin-bottom: 1rem;
@@ -99,22 +99,22 @@
 }
 
 @media screen and (max-width: 540px) {
-  .famitra .logo {
+  .family-trust .logo {
     padding-top: 2.1rem;
   }
 }
 
-.famitra .logo img {
+.family-trust .logo img {
   width: 11.3rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .logo img {
+  .family-trust .logo img {
     width: 44%;
   }
 }
 
-.famitra .logo-pc {
+.family-trust .logo-pc {
   position: absolute;
   top: 1rem;
   left: 2rem;
@@ -122,62 +122,62 @@
   z-index: 10;
 }
 
-.famitra .catchphrase img {
+.family-trust .catchphrase img {
   width: 21.7rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .catchphrase img {
+  .family-trust .catchphrase img {
     width: 100%;
   }
 }
 
-.famitra .subtext {
+.family-trust .subtext {
   font-size: 1.14rem;
   text-align: center;
   margin: 1rem 0;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .subtext {
+  .family-trust .subtext {
     font-size: 1.5vw;
   }
 }
 
 @media screen and (max-width: 540px) {
-  .famitra .subtext {
+  .family-trust .subtext {
     margin-bottom: 0.5rem;
   }
 }
 
-.famitra .main-visual {
+.family-trust .main-visual {
   position: relative;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .main-visual {
+  .family-trust .main-visual {
     width: 60%;
     margin-left: auto;
   }
 }
 
-.famitra .main-visual img {
+.family-trust .main-visual img {
   width: 100%;
 }
 
-.famitra img {
+.family-trust img {
   width: 100%;
   height: auto;
 }
 
-.famitra .main-label {
+.family-trust .main-label {
   position: absolute;
   left: 1.2rem;
   width: 6.9rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .main-label {
+  .family-trust .main-label {
     bottom: -14%;
     right: -15%;
     width: 25%;
@@ -185,59 +185,59 @@
   }
 }
 
-.famitra .mintitle {
+.family-trust .mintitle {
   margin: 0;
   font-size: 0.88rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .mintitle {
+  .family-trust .mintitle {
     font-size: 1.2rem;
   }
 }
 
-.famitra .list-first {
+.family-trust .list-first {
   margin: 0;
   color: white;
   font-size: 0.88rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .list-first {
+  .family-trust .list-first {
     font-size: 1.2rem;
   }
 }
 
-.famitra section {
+.family-trust section {
   background-color: #1eadac;
   padding: 3.9rem 1.22rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra section {
+  .family-trust section {
     padding: 6rem 0;
   }
 }
 
 @media screen and (max-width: 540px) {
-  .famitra section {
+  .family-trust section {
     padding-top: 2.9rem;
   }
 }
 
 @media screen and (min-width: 750px) {
-  .famitra section:first-of-type {
+  .family-trust section:first-of-type {
     padding-top: 5rem;
   }
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .subsection h3 {
+  .family-trust .subsection h3 {
     margin-top: 8rem;
   }
 }
 
-.famitra h2 {
+.family-trust h2 {
   font-size: 2.28rem;
   color: #ffffff;
   text-align: center;
@@ -252,12 +252,12 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra h2 {
+  .family-trust h2 {
     font-size: 3.28rem;
   }
 }
 
-.famitra h3 {
+.family-trust h3 {
   color: #333333;
   position: relative;
   padding-left: 1rem;
@@ -271,12 +271,12 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra h3 {
+  .family-trust h3 {
     font-size: 2.2rem;
   }
 }
 
-.famitra h3:before {
+.family-trust h3:before {
   content: "";
   position: absolute;
   left: 0;
@@ -291,41 +291,40 @@
           transform: translateY(-50%);
 }
 
-.famitra p {
+.family-trust p {
   color: #ffffff;
   font-size: 1rem;
-  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra p {
+  .family-trust p {
     font-size: 1.2rem;
   }
 }
 
 @media screen and (max-width: 540px) {
-  .famitra p {
+  .family-trust p {
     font-size: 1.139rem;
   }
 }
 
-.famitra .read-txt {
+.family-trust .read-txt {
   font-size: 1.285rem;
   letter-spacing: 0.01rem;
   line-height: 1.8;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .read-txt {
+  .family-trust .read-txt {
     font-size: 1.5rem;
   }
 }
 
-.famitra .read-txt span {
+.family-trust .read-txt span {
   font-weight: bold;
 }
 
-.famitra .price {
+.family-trust .price {
   background: #ECF8F8;
   margin-top: -80px;
   z-index: -10;
@@ -333,47 +332,47 @@
 }
 
 @media screen and (max-width: 750px) {
-  .famitra .price {
+  .family-trust .price {
     padding-top: 110px;
   }
 }
 
-.famitra .price .image-container-link {
+.family-trust .price .image-container-link {
   margin-bottom: 1rem;
 }
 
-.famitra .price h2 {
+.family-trust .price h2 {
   color: #1EADAC;
 }
 
-.famitra .price .read-txt, .famitra .price .mintitle, .famitra .price .list {
+.family-trust .price .read-txt, .family-trust .price .mintitle, .family-trust .price .list {
   color: #333;
 }
 
-.famitra .price-caption span {
+.family-trust .price-caption span {
   display: block;
   text-align: right;
   font-size: 1.2rem;
 }
 
 @media screen and (max-width: 750px) {
-  .famitra .price-caption span {
+  .family-trust .price-caption span {
     font-size: 0.88rem;
   }
 }
 
-.famitra .section3 {
+.family-trust .section3 {
   padding-bottom: 2.6rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .section3 {
+  .family-trust .section3 {
     padding-bottom: 7rem;
   }
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .section3-item {
+  .family-trust .section3-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -391,14 +390,14 @@
   }
 }
 
-.famitra .section3-item .section3-img {
+.family-trust .section3-item .section3-img {
   text-align: center;
   margin: 0 auto 1.5rem;
   width: 21rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .section3-item .section3-img {
+  .family-trust .section3-item .section3-img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -406,82 +405,82 @@
   }
 }
 
-.famitra .section3-item .white-rectangle {
+.family-trust .section3-item .white-rectangle {
   max-width: 81%;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .section3-item .white-rectangle {
+  .family-trust .section3-item .white-rectangle {
     width: 30rem;
   }
-  .famitra .section3-item .white-rectangle p {
+  .family-trust .section3-item .white-rectangle p {
     font-size: 1.2rem;
   }
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .arrow-down {
+  .family-trust .arrow-down {
     width: 10rem;
     margin: 0 auto;
   }
-  .famitra .arrow-down img {
+  .family-trust .arrow-down img {
     vertical-align: super;
   }
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .pc-center {
+  .family-trust .pc-center {
     text-align: center;
   }
 }
 
-.famitra .section4 {
+.family-trust .section4 {
   padding-top: 2.5rem;
 }
 
-.famitra .content {
+.family-trust .content {
   width: 1005px;
   max-width: 90%;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 750px) {
-  .famitra .content {
+  .family-trust .content {
     width: 100%;
     max-width: 100%;
   }
 }
 
-.famitra .sp {
+.family-trust .sp {
   display: none;
 }
 
 @media screen and (max-width: 750px) {
-  .famitra .sp {
+  .family-trust .sp {
     display: block;
   }
 }
 
 @media screen and (max-width: 750px) {
-  .famitra .pc {
+  .family-trust .pc {
     display: none;
   }
 }
 
-.famitra a {
+.family-trust a {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.famitra a:hover {
+.family-trust a:hover {
   opacity: 0.8;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.famitra .image-container,
-.famitra .image-container-link {
+.family-trust .image-container,
+.family-trust .image-container-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -491,41 +490,41 @@
   margin-bottom: 1rem;
 }
 
-.famitra .image-container a,
-.famitra .image-container-link a {
+.family-trust .image-container a,
+.family-trust .image-container-link a {
   width: 49%;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .image-container-link {
+  .family-trust .image-container-link {
     margin: 3rem 0 2rem;
   }
 }
 
-.famitra .image-container-link img {
+.family-trust .image-container-link img {
   width: 48%;
 }
 
-.famitra .image-container-mid {
+.family-trust .image-container-mid {
   width: 85%;
   margin: 0 auto;
 }
 
-.famitra .image-container-mid img {
+.family-trust .image-container-mid img {
   width: 100%;
 }
 
-.famitra .image-container-full img {
+.family-trust .image-container-full img {
   width: 100%;
 }
 
-.famitra .subtext02 {
+.family-trust .subtext02 {
   color: #333333;
   opacity: 0.6;
   font-size: 0.87rem;
 }
 
-.famitra .image-container-icon {
+.family-trust .image-container-icon {
   margin: 1.5rem auto;
   width: 5rem;
   display: -webkit-box;
@@ -534,48 +533,48 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .image-container-icon {
+  .family-trust .image-container-icon {
     margin: 4rem auto;
   }
 }
 
-.famitra .image-container-icon img {
+.family-trust .image-container-icon img {
   margin-right: 1rem;
 }
 
-.famitra .image-container-icon img:first-child {
+.family-trust .image-container-icon img:first-child {
   margin-left: 1rem;
 }
 
-.famitra .fc-bl h2,
-.famitra .fc-bl p {
+.family-trust .fc-bl h2,
+.family-trust .fc-bl p {
   color: #333333;
 }
 
-.famitra .white-rectangle {
+.family-trust .white-rectangle {
   background-color: white;
   padding: 1.7rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .white-rectangle {
+  .family-trust .white-rectangle {
     padding: 3rem 3rem;
   }
 }
 
-.famitra .white-rectangle p {
+.family-trust .white-rectangle p {
   margin: 0;
   letter-spacing: 0.05rem;
   font-size: 1.14rem;
 }
 
-.famitra .white-rectangle h3 {
+.family-trust .white-rectangle h3 {
   position: static;
   text-align: center;
   margin-top: 1.6rem;
 }
 
-.famitra .white-rectangle h3:before {
+.family-trust .white-rectangle h3:before {
   position: static;
   background-color: initial;
   width: initial;
@@ -583,41 +582,41 @@
           transform: initial;
 }
 
-.famitra .white-rectangle h4 {
+.family-trust .white-rectangle h4 {
   font-size: 1.15rem;
   font-weight: 500;
   margin-top: 2.3rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .white-rectangle-pc h3 {
+  .family-trust .white-rectangle-pc h3 {
     margin-top: 1rem;
   }
 }
 
-.famitra .heading-main {
+.family-trust .heading-main {
   color: #1eadac !important;
 }
 
-.famitra .heading-main span {
+.family-trust .heading-main span {
   color: #ca7900;
 }
 
-.famitra .heading-main02 span {
+.family-trust .heading-main02 span {
   color: #fcff68;
 }
 
-.famitra .list {
+.family-trust .list {
   padding: 0;
 }
 
-.famitra .list li {
+.family-trust .list li {
   list-style: none;
   padding-left: 1em;
   text-indent: -1em;
 }
 
-.famitra .intro-list {
+.family-trust .intro-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -628,7 +627,7 @@
 }
 
 @media screen and (max-width: 750px) {
-  .famitra .intro-list {
+  .family-trust .intro-list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -639,26 +638,26 @@
   }
 }
 
-.famitra .intro-list figure {
+.family-trust .intro-list figure {
   text-align: center;
   width: 250px;
 }
 
-.famitra .intro-list figure img {
+.family-trust .intro-list figure img {
   width: 100%;
 }
 
 @media screen and (max-width: 750px) {
-  .famitra .intro-list figure img {
+  .family-trust .intro-list figure img {
     width: 200px;
   }
 }
 
-.famitra .intro-list figure p {
+.family-trust .intro-list figure p {
   font-size: 1.2rem;
 }
 
-.famitra .intro-list .intro-arrow {
+.family-trust .intro-list .intro-arrow {
   width: 28%;
   max-width: 180px;
   position: absolute;
@@ -669,7 +668,7 @@
 }
 
 @media screen and (max-width: 750px) {
-  .famitra .intro-list .intro-arrow {
+  .family-trust .intro-list .intro-arrow {
     position: relative;
     width: 46px;
     top: 0;
@@ -679,13 +678,13 @@
   }
 }
 
-.famitra .intro-point {
+.family-trust .intro-point {
   background: #fff;
   padding: 1.2rem;
   position: relative;
 }
 
-.famitra .intro-point::before {
+.family-trust .intro-point::before {
   content: "";
   position: absolute;
   display: block;
@@ -698,16 +697,17 @@
           transform: translate(-10px, -50%);
 }
 
-.famitra .intro-point p {
+.family-trust .intro-point p {
   color: #333;
   font-size: 1.29rem;
+  margin: 1rem 0;
 }
 
-.famitra .features {
+.family-trust .features {
   margin-top: 2rem;
 }
 
-.famitra .features .feature {
+.family-trust .features .feature {
   background-color: #fff1ce;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -720,7 +720,7 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .features .feature {
+  .family-trust .features .feature {
     width: 50rem;
     max-width: 100%;
     margin: 0 auto 1.2rem;
@@ -728,19 +728,19 @@
   }
 }
 
-.famitra .features .feature p {
+.family-trust .features .feature p {
   font-size: 1.29rem;
   font-weight: bold;
   margin-top: 1rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .features .feature p {
+  .family-trust .features .feature p {
     font-size: 2rem;
   }
 }
 
-.famitra .features .feature span {
+.family-trust .features .feature span {
   font-size: 1.73rem;
   display: inline;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(0%, #fcff68));
@@ -749,25 +749,25 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .features .feature span {
+  .family-trust .features .feature span {
     font-size: 2.7rem;
   }
 }
 
-.famitra .features .feature img {
+.family-trust .features .feature img {
   margin-right: 0.8rem;
   width: 2rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .features .feature img {
+  .family-trust .features .feature img {
     width: 2.9rem;
     margin-right: 2.5rem;
   }
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .flex-wrap {
+  .family-trust .flex-wrap {
     margin: 4rem auto 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -780,46 +780,46 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .flex-wrap .image-container-mid {
+  .family-trust .flex-wrap .image-container-mid {
     width: 48%;
   }
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .flex-wrap .feature-right {
+  .family-trust .flex-wrap .feature-right {
     width: 48%;
   }
 }
 
-.famitra table {
+.family-trust table {
   border-collapse: collapse;
   border-spacing: 0;
   margin-bottom: 1rem;
 }
 
-.famitra table .table-icon {
+.family-trust table .table-icon {
   text-align: center;
 }
 
-.famitra table td,
-.famitra table th {
+.family-trust table td,
+.family-trust table th {
   border: 2px #8c8c8c solid;
 }
 
-.famitra table thead th {
+.family-trust table thead th {
   font-weight: 400;
   line-height: 1.2;
 }
 
-.famitra table thead th span {
+.family-trust table thead th span {
   font-size: 0.7rem;
 }
 
-.famitra table thead tr:first-child {
+.family-trust table thead tr:first-child {
   background-color: #fff1ce;
 }
 
-.famitra table tbody th {
+.family-trust table tbody th {
   background-color: white;
   font-size: 1rem;
   font-weight: 400;
@@ -829,12 +829,12 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra table tbody th {
+  .family-trust table tbody th {
     font-size: 1.1rem;
   }
 }
 
-.famitra table tbody td {
+.family-trust table tbody td {
   background-color: white;
   padding: 1.4rem 0.4rem;
   -webkit-box-sizing: border-box;
@@ -844,15 +844,15 @@
           font-feature-settings: "palt";
 }
 
-.famitra table tbody td span {
+.family-trust table tbody td span {
   font-weight: bold;
 }
 
-.famitra table tbody td img {
+.family-trust table tbody td img {
   width: 2.1rem;
 }
 
-.famitra table thead th {
+.family-trust table thead th {
   background-color: #fff1ce;
   padding: 0.5rem 0;
   /* 44pxの高さをremで指定。通常1remは16pxとされるため、44/16 = 2.75rem */
@@ -860,31 +860,31 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra table thead th {
+  .family-trust table thead th {
     padding: 1.5rem 0;
     font-size: 1.1rem;
   }
 }
 
-.famitra table thead th:nth-child(n+2) {
+.family-trust table thead th:nth-child(n+2) {
   width: 27.5%;
   /* 3つのthが同じ幅になるように固定 */
 }
 
-.famitra table tbody td {
+.family-trust table tbody td {
   font-size: 0.71rem;
   vertical-align: top;
   /* 内容を上に寄せる */
 }
 
 @media screen and (min-width: 750px) {
-  .famitra table tbody td {
+  .family-trust table tbody td {
     font-size: 1rem;
     padding: 1.5rem;
   }
 }
 
-.famitra .table-icon {
+.family-trust .table-icon {
   display: inline-block;
   width: 100%;
   height: 2.3rem;
@@ -893,7 +893,7 @@
   margin-bottom: 0.5rem;
 }
 
-.famitra .table-icon img {
+.family-trust .table-icon img {
   max-height: 100%;
   width: auto;
   height: auto;
@@ -901,7 +901,7 @@
   vertical-align: middle;
 }
 
-.famitra .property-images {
+.family-trust .property-images {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -910,16 +910,16 @@
           justify-content: space-between;
 }
 
-.famitra .property-images .property-images-item {
+.family-trust .property-images .property-images-item {
   width: 30%;
   text-align: center;
 }
 
-.famitra .property-images .property-images-item p {
+.family-trust .property-images .property-images-item p {
   color: #333333;
 }
 
-.famitra .logo-row {
+.family-trust .logo-row {
   margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -932,68 +932,68 @@
           align-items: center;
 }
 
-.famitra .logo-row picture {
+.family-trust .logo-row picture {
   width: 33%;
   margin: 0 0.7rem;
 }
 
-.famitra .logo-row picture:first-child {
+.family-trust .logo-row picture:first-child {
   width: 25%;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .logo-row picture:first-child {
+  .family-trust .logo-row picture:first-child {
     width: 25%;
   }
 }
 
-.famitra .logo-row picture:nth-child(2) {
+.family-trust .logo-row picture:nth-child(2) {
   width: 25%;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .logo-row picture:nth-child(2) {
+  .family-trust .logo-row picture:nth-child(2) {
     width: 25%;
   }
 }
 
 @media screen and (max-width: 540px) {
-  .famitra .logo-row picture:nth-child(2) {
+  .family-trust .logo-row picture:nth-child(2) {
     width: 28%;
   }
 }
 
-.famitra .logo-row:last-child picture:first-child {
+.family-trust .logo-row:last-child picture:first-child {
   width: 36%;
 }
 
 @media screen and (max-width: 540px) {
-  .famitra .logo-row:last-child picture:first-child {
+  .family-trust .logo-row:last-child picture:first-child {
     width: 45%;
   }
 }
 
-.famitra .logo-row:last-child picture:last-child {
+.family-trust .logo-row:last-child picture:last-child {
   width: 40%;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .graph {
+  .family-trust .graph {
     width: 100%;
     margin: 0 auto;
   }
 }
 
-.famitra #qa .white-rectangle {
+.family-trust #qa .white-rectangle {
   margin-top: 3rem;
   color: #211715;
 }
 
-.famitra .qa {
+.family-trust .qa {
   margin-bottom: 1.3rem;
 }
 
-.famitra .qa .qa-wrap {
+.family-trust .qa .qa-wrap {
   padding: 0;
   margin: 0;
   padding: 1.2rem;
@@ -1003,7 +1003,7 @@
   letter-spacing: 0.2rem;
 }
 
-.famitra .qa .qa-wrap span {
+.family-trust .qa .qa-wrap span {
   color: #1eadac;
   font-size: 2rem;
   font-weight: bold;
@@ -1013,50 +1013,50 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .qa .qa-wrap span {
+  .family-trust .qa .qa-wrap span {
     margin: 0;
   }
 }
 
-.famitra .qa .qa-wrap .highlight02 {
+.family-trust .qa .qa-wrap .highlight02 {
   font-size: 1.35rem;
   color: #333333;
 }
 
-.famitra .qa p {
+.family-trust .qa p {
   font-size: 1.29rem;
   color: #333333;
   margin: 0;
 }
 
-.famitra .images {
+.family-trust .images {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .read-textpc {
+  .family-trust .read-textpc {
     margin: 7rem 0 3rem;
   }
 }
 
-.famitra .voice .read-txt {
+.family-trust .voice .read-txt {
   margin-top: -0.7rem;
   margin-bottom: 2.7rem;
 }
 
-.famitra .voice h3 {
+.family-trust .voice h3 {
   margin-top: 1rem;
   margin-bottom: 0.8rem;
 }
 
-.famitra .voice .voice-item {
+.family-trust .voice .voice-item {
   margin-bottom: 4rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .voice .voice-item {
+  .family-trust .voice .voice-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1065,27 +1065,27 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .voice .voice-item div {
+  .family-trust .voice .voice-item div {
     width: 60%;
   }
 }
 
-.famitra .voice .voice-item:last-child {
+.family-trust .voice .voice-item:last-child {
   margin-bottom: 0;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .voice .voice-item p {
+  .family-trust .voice .voice-item p {
     width: 70%;
     margin-top: 0;
   }
 }
 
-.famitra .voice .voice-item p:last-child {
+.family-trust .voice .voice-item p:last-child {
   margin-bottom: 0;
 }
 
-.famitra .highlight {
+.family-trust .highlight {
   display: inline;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(0%, #fcff68));
   background: linear-gradient(transparent 60%, #fcff68 0%);
@@ -1093,7 +1093,7 @@
   font-weight: bold;
 }
 
-.famitra .respondence .respondence-wrap {
+.family-trust .respondence .respondence-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1102,12 +1102,12 @@
           justify-content: space-between;
 }
 
-.famitra .respondence .respondence-item {
+.family-trust .respondence .respondence-item {
   width: 47%;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .respondence .respondence-item {
+  .family-trust .respondence .respondence-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1115,43 +1115,43 @@
   }
 }
 
-.famitra .respondence .respondence-item .respondence-img {
+.family-trust .respondence .respondence-item .respondence-img {
   text-align: center;
 }
 
-.famitra .respondence .respondence-item .respondence-img img {
+.family-trust .respondence .respondence-item .respondence-img img {
   width: 80%;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .respondence .respondence-item .respondence-img img {
+  .family-trust .respondence .respondence-item .respondence-img img {
     width: 10rem;
     margin-right: 1rem;
   }
 }
 
-.famitra .respondence .respondence-item h4 {
+.family-trust .respondence .respondence-item h4 {
   font-weight: 500;
   font-size: 1.14rem;
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .respondence .respondence-item h4 {
+  .family-trust .respondence .respondence-item h4 {
     font-size: 1.2rem;
     font-weight: bold;
   }
 }
 
-.famitra .respondence .respondence-item h4 span {
+.family-trust .respondence .respondence-item h4 span {
   font-size: 0.9rem;
 }
 
-.famitra .respondence .respondence-pf {
+.family-trust .respondence .respondence-pf {
   font-size: 0.9rem;
   margin-bottom: 0;
 }
 
-.famitra .conv-btn a {
+.family-trust .conv-btn a {
   width: 100%;
   margin: 0 auto;
   display: -webkit-box;
@@ -1176,19 +1176,19 @@
 }
 
 @media screen and (max-width: 750px) {
-  .famitra .conv-btn a {
+  .family-trust .conv-btn a {
     padding: 1rem;
   }
 }
 
-.famitra .conv-btn img {
+.family-trust .conv-btn img {
   width: 40px;
   height: 46px;
   margin-right: 20px;
 }
 
 @media screen and (max-width: 750px) {
-  .famitra .conv-btn img {
+  .family-trust .conv-btn img {
     padding: 1rem;
     width: 30px;
     height: 33px;
@@ -1196,7 +1196,7 @@
   }
 }
 
-.famitra .conv-btn p {
+.family-trust .conv-btn p {
   font-size: 2rem;
   font-weight: bold;
   color: #fff;
@@ -1208,13 +1208,13 @@
 }
 
 @media screen and (max-width: 750px) {
-  .famitra .conv-btn p {
+  .family-trust .conv-btn p {
     font-size: 1.6rem;
     margin-right: 0.5rem;
   }
 }
 
-.famitra .conv-btn span {
+.family-trust .conv-btn span {
   display: block;
   background: #fff;
   color: #E8AE40;
@@ -1228,7 +1228,7 @@
 }
 
 @media screen and (max-width: 750px) {
-  .famitra .conv-btn span {
+  .family-trust .conv-btn span {
     font-size: 1.3rem;
     height: 34px;
     line-height: 34px;
@@ -1236,11 +1236,11 @@
   }
 }
 
-.famitra #qa2 .qa-wrap {
+.family-trust #qa2 .qa-wrap {
   position: relative;
 }
 
-.famitra #qa2 .icon-container {
+.family-trust #qa2 .icon-container {
   position: absolute;
   top: 50%;
   right: 1.2rem;
@@ -1248,7 +1248,7 @@
           transform: translateY(-50%);
 }
 
-.famitra #qa2 .icon {
+.family-trust #qa2 .icon {
   width: 21px;
   height: 21px;
   display: -webkit-box;
@@ -1269,7 +1269,7 @@
           box-sizing: border-box;
 }
 
-.famitra #qa2 .answer {
+.family-trust #qa2 .answer {
   max-height: 0;
   padding: 0;
   overflow: hidden;
@@ -1277,26 +1277,26 @@
   transition: max-height 0.3s ease-in-out;
 }
 
-.famitra #qa2 .answer.open {
+.family-trust #qa2 .answer.open {
   padding: 1.2rem;
   max-height: 300px;
   /* 適切な最大高さに調整 */
 }
 
-.famitra #qa2 .question {
+.family-trust #qa2 .question {
   padding-right: 3.3rem;
 }
 
-.famitra .c-accordion {
+.family-trust .c-accordion {
   margin-top: 4rem;
 }
 
-.famitra .c-accordion__list {
+.family-trust .c-accordion__list {
   margin-bottom: 1rem;
   width: 100%;
 }
 
-.famitra .c-accordion__list__header {
+.family-trust .c-accordion__list__header {
   background-color: #fff1ce;
   padding: 0.8rem 4rem 0.8rem 2rem;
   position: relative;
@@ -1308,25 +1308,25 @@
 }
 
 @media screen and (max-width: 736px) {
-  .famitra .c-accordion__list__header {
+  .family-trust .c-accordion__list__header {
     padding: 1.2rem 4.5rem 1.2rem 1rem;
   }
 }
 
-.famitra .c-accordion__list__header p {
+.family-trust .c-accordion__list__header p {
   color: #333333;
   font-size: 1.29rem;
   margin: 0;
 }
 
-.famitra .c-accordion__list__header p span {
+.family-trust .c-accordion__list__header p span {
   margin-right: 1.2rem;
   font-size: 2rem;
   color: #1eadac;
   font-weight: bold;
 }
 
-.famitra .c-accordion__list__header--icon {
+.family-trust .c-accordion__list__header--icon {
   position: absolute;
   top: 50%;
   right: 2rem;
@@ -1336,12 +1336,12 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .c-accordion__list__header--icon {
+  .family-trust .c-accordion__list__header--icon {
     border: none;
   }
 }
 
-.famitra .c-accordion__list__header--icon::before, .famitra .c-accordion__list__header--icon::after {
+.family-trust .c-accordion__list__header--icon::before, .family-trust .c-accordion__list__header--icon::after {
   position: absolute;
   content: "";
   margin: auto;
@@ -1351,12 +1351,12 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .c-accordion__list__header--icon::before, .famitra .c-accordion__list__header--icon::after {
+  .family-trust .c-accordion__list__header--icon::before, .family-trust .c-accordion__list__header--icon::after {
     top: 0.7rem !important;
   }
 }
 
-.famitra .c-accordion__list__header--icon::before {
+.family-trust .c-accordion__list__header--icon::before {
   border-top: 3px solid #1eadac;
   width: 20px;
   height: 0;
@@ -1366,19 +1366,19 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .c-accordion__list__header--icon::before {
+  .family-trust .c-accordion__list__header--icon::before {
     right: -0.1rem;
   }
 }
 
 @media screen and (max-width: 736px) {
-  .famitra .c-accordion__list__header--icon::before {
+  .family-trust .c-accordion__list__header--icon::before {
     width: 15px;
     right: 0.2rem;
   }
 }
 
-.famitra .c-accordion__list__header--icon::after {
+.family-trust .c-accordion__list__header--icon::after {
   border-left: 3px solid #1eadac;
   width: 0;
   height: 20px;
@@ -1390,14 +1390,14 @@
 }
 
 @media screen and (max-width: 736px) {
-  .famitra .c-accordion__list__header--icon::after {
+  .family-trust .c-accordion__list__header--icon::after {
     height: 15px;
     right: 0.6rem;
   }
 }
 
 @media screen and (max-width: 736px) {
-  .famitra .c-accordion__list__header--icon {
+  .family-trust .c-accordion__list__header--icon {
     right: 0.8rem;
     width: 1rem;
     height: 1rem;
@@ -1405,7 +1405,7 @@
   }
 }
 
-.famitra .c-accordion__list__inner {
+.family-trust .c-accordion__list__inner {
   display: none;
   padding: 0.8rem 1.7rem;
   -webkit-box-sizing: border-box;
@@ -1414,36 +1414,36 @@
 }
 
 @media screen and (max-width: 736px) {
-  .famitra .c-accordion__list__inner {
+  .family-trust .c-accordion__list__inner {
     padding: 1rem;
   }
 }
 
-.famitra .c-accordion__list__inner p {
+.family-trust .c-accordion__list__inner p {
   color: #333333;
   font-weight: 500;
 }
 
-.famitra .c-accordion__list__inner a {
+.family-trust .c-accordion__list__inner a {
   color: #333333;
 }
 
-.famitra .c-accordion__list__header.open .c-accordion__list__header--icon::before {
+.family-trust .c-accordion__list__header.open .c-accordion__list__header--icon::before {
   border-top: 3px solid #1eadac;
   z-index: 10;
 }
 
 @media screen and (max-width: 736px) {
-  .famitra .c-accordion__list__header.open .c-accordion__list__header--icon::before {
+  .family-trust .c-accordion__list__header.open .c-accordion__list__header--icon::before {
     width: 15px;
   }
 }
 
-.famitra .c-accordion__list__header.open .c-accordion__list__header--icon::after {
+.family-trust .c-accordion__list__header.open .c-accordion__list__header--icon::after {
   height: 0;
 }
 
-.famitra .c-accordion__list__header--q {
+.family-trust .c-accordion__list__header--q {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1451,14 +1451,14 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .c-accordion__list__header--q {
+  .family-trust .c-accordion__list__header--q {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
 }
 
-.famitra .c-accordion__list__header--a {
+.family-trust .c-accordion__list__header--a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1466,14 +1466,14 @@
   font-size: 1.29rem;
 }
 
-.famitra .c-accordion__list__header--a span {
+.family-trust .c-accordion__list__header--a span {
   margin-right: 1.2rem;
   font-size: 2rem;
   color: #1eadac;
   font-weight: bold;
 }
 
-.famitra .conversion {
+.family-trust .conversion {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -1494,29 +1494,29 @@
 }
 
 @media screen and (min-width: 750px) {
-  .famitra .conversion {
+  .family-trust .conversion {
     padding: 1rem;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     gap: 1%;
   }
-  .famitra .conversion:hover a {
+  .family-trust .conversion:hover a {
     opacity: 1;
   }
 }
 
-.famitra .conversion .conv-btn {
+.family-trust .conversion .conv-btn {
   width: 600px;
 }
 
 @media screen and (max-width: 540px) {
-  .famitra .conversion-sub a {
+  .family-trust .conversion-sub a {
     width: 85%;
   }
 }
 
-.famitra .fade-in {
+.family-trust .fade-in {
   opacity: 1 !important;
 }
 /*# sourceMappingURL=style.css.map */
